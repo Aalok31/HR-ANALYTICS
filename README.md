@@ -112,8 +112,6 @@ hr-attrition-analytics/
 - **Overtime** and **frequent travel** likely correlate with attrition—consider policies addressing workload and travel.
 - Targeted learning paths and career progression can reduce exits in junior roles.
 
-## 📄 License
-MIT — free to use with attribution.
 
 ---
 
