@@ -12,7 +12,7 @@ This project analyzes employee attrition using a public-style HR dataset and an 
 
 **Key signals**
 - Highest attrition by role:  
-                       Employees  Attritions  AttritionRate%
+                         Employees   Attritions   AttritionRate%
 JobRole                                                     
 Laboratory Technician        261          62       23.754789
 Sales Executive              329          58       17.629179
@@ -21,7 +21,7 @@ Sales Representative          84          33       39.285714
 Human Resources               52          12       23.076923
 
 - By gender:  
-        Employees  Attritions  AttritionRate%
+        Employees    Attritions     AttritionRate%
 Gender                                       
 Female        591          87       14.720812
 Male          889         151       16.985377
