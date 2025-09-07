@@ -92,14 +92,12 @@ hr-attrition-analytics/
 ├─ data/
 │  └─ HR_Analytics.csv
 ├─ dashboard/
-│  ├─ HR_Attrition.pbix
+│  ├─ DASHBOARD.pbix
 │  └─ screenshots/
-│     └─ dashboard.png
-├─ docs/
-│  └─ report.pdf   # (optional)
+│     └─ dashboard.png 
 ├─ README.md
-├─ LICENSE
-└─ .gitignore
+
+
 ```
 
 ## 🚀 How to Use
