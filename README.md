@@ -11,45 +11,55 @@ This project analyzes employee attrition using a public-style HR dataset and an 
 - **Average Years at Company:** 7.01
 
 **Key signals**
-- Highest attrition by role:  
-                         Employees   Attritions   AttritionRate%
-JobRole                                                     
-Laboratory Technician        261          62       23.754789
-Sales Executive              329          58       17.629179
-Research Scientist           293          47       16.040956
-Sales Representative          84          33       39.285714
-Human Resources               52          12       23.076923
 
-- By gender:  
-        Employees    Attritions     AttritionRate%
-Gender                                       
-Female        591          87       14.720812
-Male          889         151       16.985377
 
-- By department:  
-                        Employees  Attritions  AttritionRate%
-Department                                                   
-Research & Development        967         133       13.753878
-Sales                         450          93       20.666667
-Human Resources                63          12       19.047619
+### 📌 Attrition by Job Role
+| Job Role               | Employees | Attritions | Attrition Rate (%) |
+|-------------------------|-----------|------------|---------------------|
+| Laboratory Technician   | 261       | 62         | 23.75%             |
+| Sales Executive         | 329       | 58         | 17.63%             |
+| Research Scientist      | 293       | 47         | 16.04%             |
+| Sales Representative    | 84        | 33         | **39.29%**         |
+| Human Resources         | 52        | 12         | 23.08%             |
 
-- By age group:  
-          Employees  Attritions  AttritionRate%
-AgeGroup                                       
-26-35           611         116       18.985270
-18-25           123          44       35.772358
-36-45           471          43        9.129512
-46-55           228          27       11.842105
-55+              47           8       17.021277
+---
 
-- By salary band (₹ per month equivalent scale):  
-               Employees  Attritions  AttritionRate%
-MonthlyIncome                                       
-Upto 5k              753         163       21.646746
-5k-10k               444          49       11.036036
-10k-15k              150          21       14.000000
-15k-20k              133           5        3.759398
-20k+                   0           0             NaN
+### 📌 Attrition by Gender
+| Gender | Employees | Attritions | Attrition Rate (%) |
+|--------|-----------|------------|---------------------|
+| Female | 591       | 87         | 14.72%             |
+| Male   | 889       | 151        | 16.99%             |
+
+---
+
+### 📌 Attrition by Department
+| Department              | Employees | Attritions | Attrition Rate (%) |
+|--------------------------|-----------|------------|---------------------|
+| Research & Development   | 967       | 133        | 13.75%             |
+| Sales                    | 450       | 93         | 20.67%             |
+| Human Resources          | 63        | 12         | 19.05%             |
+
+---
+
+### 📌 Attrition by Age Group
+| Age Group | Employees | Attritions | Attrition Rate (%) |
+|-----------|-----------|------------|---------------------|
+| 18–25     | 123       | 44         | **35.77%**         |
+| 26–35     | 611       | 116        | 18.99%             |
+| 36–45     | 471       | 43         | 9.13%              |
+| 46–55     | 228       | 27         | 11.84%             |
+| 55+       | 47        | 8          | 17.02%             |
+
+---
+
+### 📌 Attrition by Salary Band (₹ per month)
+| Salary Band | Employees | Attritions | Attrition Rate (%) |
+|-------------|-----------|------------|---------------------|
+| Upto ₹5k    | 753       | 163        | **21.65%**         |
+| ₹5k–10k     | 444       | 49         | 11.04%             |
+| ₹10k–15k    | 150       | 21         | 14.00%             |
+| ₹15k–20k    | 133       | 5          | 3.76%              |
+| ₹20k+       | 0         | 0          | —                  |
 
 ## 📊 Dashboard
 The dashboard surfaces:
